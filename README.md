@@ -1,6 +1,8 @@
 # SIMPLE Staggered Grid Solver for Couette Flow
 The repository holds python code for solving the couette incompressible flow problem using a SIMPLE solver with staggered grid. The code replicates Fig. 9.10 of Anderson's "Computational Fluid Dynamics". 
 
+The code uses fixed number of iterations for convergence but can be easily edited to converge according to the mass source term.
+
 Here's a coarse figure for the staggered grid:
 
 <img src="grid.png" alt="staggered grid" width="90%" height="90%">
